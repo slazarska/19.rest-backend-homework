@@ -14,8 +14,9 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class UserInfo {
+public class PostInfo {
 
-    private Date loginDate;
-    private String userName;
+    private String studentName;
+    //private Date postDeliveryDate;
+    //private boolean isPostReceived;
 }

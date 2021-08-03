@@ -12,8 +12,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class LoginInfo {
+public class StudentInfo {
 
-    private String userName;
-    private String password;
+    private String studentName;
+    private String character;
+    //private boolean hasMagicalAbilities = true;
 }

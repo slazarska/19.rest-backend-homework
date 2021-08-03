@@ -3,6 +3,6 @@ package restbackend.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ResponseStatus(value = HttpStatus.UNAUTHORIZED)
-public class InvalidUsernameException extends Error {
+@ResponseStatus(value = HttpStatus.NOT_FOUND)
+public class InvalidNameException extends Error {
 }
